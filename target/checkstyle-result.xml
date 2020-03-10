@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\AddItem.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\BaseAction.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\ConsoleInput.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\DeleteItem.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\FindItem.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\FindItemName.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\Input.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\Item.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\ITracker.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\MenuOutException.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\MenuTracker.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\ShowItems.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\StartUI.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\StubInput.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\Tracker.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\TrackerSQL.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\UpdateItem.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\UserAction.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\java\ru\job4j\tracker\ValidateInput.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\test\java\ru\job4j\tracker\StartUITest.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\test\java\ru\job4j\tracker\TrackerSQLTest.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\test\java\ru\job4j\tracker\TrackerTest.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\test\java\ru\job4j\tracker\ValidateInputTest.java">
+</file>
+<file name="C:\projects\job4j_tracker\src\main\resources\app.properties">
+</file>
+</checkstyle>

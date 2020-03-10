@@ -8,7 +8,7 @@ package ru.job4j.tracker;
 import java.util.*;
 
 
-public class Tracker {
+public class Tracker implements ITracker {
     /**
      * Массив для хранения заявок.
      */
