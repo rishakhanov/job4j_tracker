@@ -11,7 +11,11 @@ import java.util.*;
 
 public class TrackerSQL implements ITracker, AutoCloseable {
 
-    private Connection connection;
+    public Connection connection;
+
+    public TrackerSQL(Connection connection) {
+        this.connection = connection;
+    }
 
     private static final Logger LOG = LoggerFactory.getLogger(TrackerSQL.class);
 
@@ -44,10 +48,10 @@ public class TrackerSQL implements ITracker, AutoCloseable {
             st.setLong(4, 666);
             st.setString(5, "Comments6");
             int rowsAdded = st.executeUpdate();
-            st.close();
-        } catch (Exception e) {
+            //st.close();
+        } catch (SQLException e) {
             LOG.error(e.getMessage(), e);
-        } finally {
+        } /*finally {
             if (connection != null) {
                 try {
                     connection.close();
@@ -55,7 +59,7 @@ public class TrackerSQL implements ITracker, AutoCloseable {
                     LOG.error(e.getMessage(), e);
                 }
             }
-        }
+        }*/
         return null;
     }
 
